@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DARK WEB</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body>
+<nav>
+	<div class="nav-left">
+		<img src="img1.png" class="logo">
+		<ul>
+			<li><a href=""><i class="far fa-bell"></i></a></li>
+			<li><a href=""></a><i class="fas fa-envelope-open-text"></i></li>
+			<li><a href=""><i class="fas fa-tv"></i></a></li>
+		</ul>
+	</div>
+	<div class="nav-right">
+		<div class="search-box">
+			<a href=""><i class="fas fa-search"></i></a>
+			<input type="text" placeholder="search" >
+		</div>
+		<div class="nav-user-icon online" >
+			<img src="img3.jpg" onclick="settingsMenuToggle()">
+		</div>
+
+
+
+	</div>
+
+
+  <div id="setting-menu">
+      <div id="light-btn ">
+      	<span></span>
+      </div>
+
+           <div class="setting-menu-inner" style="padding: 20px 10px;">
+           	
+             <div class="user-profile">
+           	  	<img src="img3.jpg" style="padding: 10px;">
+           	  	<div>
+           	  		<p>Joel Bobai</p>
+                       <a href="">See your prpfile</a>
+           	  	</div>
+           	  </div>    
+           	  <hr>
+           	  <div class="user-profile">
+           	  	<i class="fas fa-comment-alt fa-4x" style="color: #1876f2; margin-right: 10px; padding:10px;"></i>
+           	  	<div>
+           	  		<p>Give Feedback</p>
+                       <a href="">Help us to improve the new design</a>
+           	  	</div>
+           	  </div>
+               <hr>
+               <div class="settings-links">
+               	<i class="fas fa-cog fa-2x setting-icon"></i>
+               	<a href="">Settings & privac<i class="fas fa-chevron-right"></i></a>
+               </div>
+               <div class="settings-links">
+               	<i class="far fa-question-circle fa-2x setting-icon"></i>
+               	<a href="">Help & Support<i class="fas fa-chevron-right"></i></a>
+               </div>
+               <div class="settings-links">
+               	<i class="far fa-moon fa-2x setting-icon"></i>
+               	<a href="">Display & Accessibility<i class="fas fa-chevron-right"></i></a>
+               </div>              
+               <div class="settings-links">
+               	<i class="fas fa-sign-out-alt fa-2x setting-icon"></i>
+               	<a href="">Logout<i class="fas fa-chevron-right"></i></a>
+               </div>
+
+
+
+
+           </div>
+
+    
+
+
+
+  </div>
+
+
+
+</nav>
+
+
+
+
+<div class="container">
+
+	<!----left----->
+	<div class="left-sidebar">
+		<div class="imp-links">
+			<a href="#">
+				<i class="far fa-newspaper fa-2x"> </i> Latest News
+			</a>
+			<a href="#">
+							<i class="fas fa-user-friends fa-2x"></i> Friends
+			</a>
+			<a href="#">
+				<i class="fas fa-users fa-2x"> </i> Group
+			</a>
+			<a href="#">
+				<i class="fas fa-dolly-flatbed fa-2x"> </i>Marketplace
+			</a><a href="#">
+               <i class="fas fa-tv fa-2x"> </i> Wach
+			</a>
+			<a href="" style="color:#1876f2">See More</a>
+		</div>
+		<div class="shortcut-links">
+			<p>Your Shortcut</p>
+			<a href=""><img src="img4.jpg">Berekete Web Developers</a>
+			<a href=""><img src="img5.jpg">Web Design course</a>
+			<a href=""><img src="img6.jpg">Full Stack Development</a>
+			<a href=""><img src="img7.jpg">Website Experts</a>
+		</div>
+	</div>
+	<!----main----->
+	<div class="main-content">
+		
+     <div class="story-gallery">
+     	<div class="story story-1">
+     		<a href=""><i class="fas fa-plus-circle fa-4x"></i></a>
+     		<p>Post Story</p>
+     	</div>
+     	<div class="story story-2">
+     		<a href=""><img src="img7.jpg"></a>
+     		<p>Joel</p>
+     	</div>
+     	<div class="story story-3">
+     		<a href=""><img src="img8.jpg"></i></a>
+     		<p>Bobai</p>
+     	</div><div class="story story-4">
+     		<a href=""><img src="img9.jpg"></a>
+     		<p>Faith</p>
+     	</div>
+     	<div class="story story-5">
+     		<a href=""><img src="img10.jpg"></i></a>
+     		<p>Amos</p>
+     	</div>
+     	
+
+
+
+
+
+
+
+
+     </div>
+
+           <div class="write-post-container">
+           	  <div class="user-profile">
+           	  	<img src="img17.jpg">
+           	  	<div>
+           	  		<p>Joel Bobai</p>
+           	  		<small>Public<i class="fas fa-caret-down"></i></small>
+           	  	</div>
+           	  </div>
+
+
+                   <div class="post-input-container">
+                   	
+                       <textarea rows="3" placeholder="What's on your mind, Joel?"></textarea>
+
+
+                       <div class="add-post-links">
+                       	 <a href=""><i class="fas fa-video fa-2x" style="color:red;"></i> Live Video</a>
+                       	 <a href=""><i class="fas fa-camera-retro fa-2x" style="color:green;"></i> Photo/Video</a>
+                       	 <a href=""><i class="far fa-smile fa-2x" style="color:yellow;"></i> Feling/Activity</a>
+                       </div>
+
+                   </div>
+
+           </div>
+
+
+
+
+           <div class="post-container">
+           	 <div class="post-row">
+           	 	<div class="user-profile">
+           	  	<img src="img15.jpg">
+           	  	<div>
+           	  		<p><b>Joel Bobai</b></p>
+                    <span>June 24 2021, 13:40 pm</span>
+           	  	</div>
+           	  </div>
+           	  <a href=""><i class="fas fa-ellipsis-v" style="color: #9a9a9a;"></i></a>
+           	 	
+           	 </div>
+           	           	  
+                  <p class="post-text" style="margin: 10px;">Subscribe <span>@Joel Bobai</span> YouTube channel to watch more video on website
+                  	development and UI designs.<a href="">#JOEL BOBAI</a><a href="">#GITHUB</a></p>
+                  	<img src="img18.jpg" class="post-img">
+                       <div class="post-row">
+                       	<div class="activity-icons">
+                       		<div><i class="far fa-thumbs-up" style="color:#1876f2;"></i> 120</div>
+                       		<div><i class="far fa-comment-alt"></i> 45</div>
+                       		<div><i class="fas fa-share"></i> 20</div>
+                       	</div>
+                       	<div class="user-profile-icon">
+                       		<img src="img13.jpg"><i class="fas fa-caret-down"></i>
+                       	</div>
+                       	
+                       </div>
+
+           </div>
+
+
+
+
+
+
+
+
+            <div class="post-container">
+           	 <div class="post-row">
+           	 	<div class="user-profile">
+           	  	<img src="img19.jpg">
+           	  	<div>
+           	  		<p><b>Joel Bobai</b></p>
+                    <span>June 24 2021, 13:40 pm</span>
+           	  	</div>
+           	  </div>
+           	  <a href=""><i class="fas fa-ellipsis-v" style="color: #9a9a9a;"></i></a>
+           	 	
+           	 </div>
+           	           	  
+                  <p class="post-text" style="margin: 10px;">Subscribe <span>@Joel Bobai</span> YouTube channel to watch more video on website
+                  	development and UI designs.<a href="">#JOEL BOBAI</a><a href="">#GITHUB</a></p>
+                  	<img src="img21.jpg" class="post-img">
+                       <div class="post-row">
+                       	<div class="activity-icons">
+                       		<div><i class="far fa-thumbs-up" style="color:#1876f2;"></i> 120</div>
+                       		<div><i class="far fa-comment-alt"></i> 45</div>
+                       		<div><i class="fas fa-share"></i> 20</div>
+                       	</div>
+                       	<div class="user-profile-icon">
+                       		<img src="img13.jpg"><i class="fas fa-caret-down"></i>
+                       	</div>
+                       	
+                       </div>
+
+           </div>
+
+
+
+
+
+
+
+
+
+            <div class="post-container">
+           	 <div class="post-row">
+           	 	<div class="user-profile">
+           	  	<img src="img20.jpg">
+           	  	<div>
+           	  		<p><b>Joel Bobai</b></p>
+                    <span>June 24 2021, 13:40 pm</span>
+           	  	</div>
+           	  </div>
+           	  <a href=""><i class="fas fa-ellipsis-v" style="color: ;"></i></a>
+           	 	
+           	 </div>
+           	           	  
+                  <p class="post-text" style="margin: 10px;">Subscribe <span>@Joel Bobai</span> YouTube channel to watch more video on website
+                  	development and UI designs.<a href="">#JOEL BOBAI</a><a href="">#GITHUB</a></p>
+                  	<img src="img22.jpg" class="post-img">
+                       <div class="post-row">
+                       	<div class="activity-icons">
+                       		<div><i class="far fa-thumbs-up" style="color:#1876f2;"></i> 120</div>
+                       		<div><i class="far fa-comment-alt"></i> 45</div>
+                       		<div><i class="fas fa-share"></i> 20</div>
+                       	</div>
+                       	<div class="user-profile-icon">
+                       		<img src="img13.jpg"><i class="fas fa-caret-down"></i>
+                       	</div>
+                       	
+                       </div>
+
+           </div>
+
+
+
+
+     <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+	</div>
+	<!----right----->
+	<div class="right-sidebar">
+		
+      <div class="sideber-title">
+      	<h4>Events</h4>
+      	<a href="">See All</a>
+      </div>
+
+      <div class="event">
+      	<div class="left-event">
+      		<h3>18</h3>
+      		<span>March</span>
+      	</div>	
+      	<div class="right-event">
+      		<h4>Social Media</h4>
+      		<p><i class="fas fa-map-marker-alt"></i> willson Tech Pack</p>
+      		<a href="">More Info</a>
+      	</div>
+      </div>
+        
+
+               <div class="event">
+      	<div class="left-event">
+      		<h3s>05</h3>
+      		<span>August</span>
+      	</div>	
+      	<div class="right-event">
+      		<h4>Mobile Marketing</h4>
+      		<p> <i class="fas fa-map-marker-alt"></i> willson Tech Pack</p>
+      		<a href="">More Info</a>
+      	</div>
+      </div>
+
+      <div class="sideber-title">
+      	<h4>Advertisement</h4>
+      	<a href="">Close</a>
+      </div>
+      <img src="img4.jpg" class="sideber-ads">
+       
+
+             <div class="sideber-title">
+      	<h4>Conversation</h4>
+      	<a href="">Hide Chat</a>
+      </div>
+
+
+      <div class="online-list">
+      	<div class="online">
+      		<img src="img8.jpg">
+      	</div>
+      	<p>Joel bobai</p>
+      </div>
+            <div class="online-list">
+      	<div class="online">
+      		<img src="img9.jpg">
+      	</div>
+      	<p>Amos bobai</p>
+      </div>      <div class="online-list">
+      	<div class="online">
+      		<img src="img10.jpg">
+      	</div>
+      	<p>Faith  bobai</p>
+      </div>
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
